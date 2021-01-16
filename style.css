@@ -271,3 +271,51 @@ body {
 
   tr:nth-child(even) {background: var(--main-bg-color)}
 tr:nth-child(odd) {background: #FFF}
+
+/* contact page */
+
+
+.form-title {
+     text-align: center;
+     grid-column: 1 / 4;
+     grid-row-start: 2 / 3;
+     font-size: 1.7rem;
+ }
+
+.form-container {
+     display:flex;
+     font-size: 1.6rem;
+     grid-column: 1 / 4;
+     grid-row: 3 / 6;
+     min-height: 66vh;
+     padding: 0px 30px 30px 30px;
+     text-align: center;
+     justify-content: center;
+}
+
+.form {
+
+    padding: 15px 30px 30px 30px;
+    font-size: 1.6rem;
+}
+
+#submit {
+    background: var(--main-red-color);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: rgb(5, 5, 5);
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
