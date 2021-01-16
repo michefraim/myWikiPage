@@ -241,3 +241,33 @@ body {
     padding:5px 0;
   } 
       
+
+  /* squad page CSS */
+
+  .squad-title {
+       text-align: center;
+        grid-column: 1 / 4;
+        grid-row-start: 2 / 3;
+        font-size: 1.8rem;
+
+    }
+
+  .squad {
+      font-size: 1.6rem;
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    min-height: 50vh;
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+  }
+
+  table, th, td {
+      padding: 5px;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  tr:nth-child(even) {background: var(--main-bg-color)}
+tr:nth-child(odd) {background: #FFF}
