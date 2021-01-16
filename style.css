@@ -110,7 +110,7 @@ body {
   .links {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-    min-height: 32vh;
+    min-height: 28.5vh;
     padding: 0px 30px 30px 30px;
   }
   
@@ -234,11 +234,7 @@ body {
     grid-row: 6 / 7;
     display: flex;
     border-top: 2px dashed var(--main-red-color);
-    height: 6vh; */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: 6vh; 
     align-items: center;
     text-align: center;
     justify-content: center;
