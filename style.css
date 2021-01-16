@@ -20,14 +20,24 @@ body {
   .container {
     display: grid;
     grid-template-columns: 0.9fr  0.2fr;
+    grid-template-rows: auto auto auto;
     grid-column-gap: 1vh;
     grid-row-gap: 1vh;
   }
 
-  .header {
-    background-color: rgb(44, 44, 44);
+  .placeholder {
     grid-column: 1 / 4;
     grid-row: 1 / 1;
+    background-color: rgb(44, 44, 44);
+    height: 9vh;
+  }
+
+  .header {
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
     display: flex;
     align-items: center;
     height: 9vh;
@@ -123,10 +133,12 @@ body {
   }
   
   .footer {
+    grid-column: 1/ 4;
+    grid-row: 6 / 7;
     display: flex;
     border-top: 2px dashed var(--main-red-color);
     height: 6vh;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     right: 0;
@@ -216,4 +228,20 @@ body {
   .video {
     border: 1px black solid;
   }
+
+  .footer-media {
+    grid-column: 1/ 4;
+    grid-row: 6 / 7;
+    display: flex;
+    border-top: 2px dashed var(--main-red-color);
+    height: 6vh; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding:5px 0;
+  } 
       
