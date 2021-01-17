@@ -319,7 +319,60 @@ tr:nth-child(odd) {background: #FFF}
 
 /* media query */
 @media only screen and (max-width: 767px) {
-    .header {
-        display:none;
+    .image {
+      display:none;
     }
+
+    .header {
+      display: block;
+      background-color: rgb(44, 44, 44);
+      height: 11vh;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      position: fixed;
+      left:0;
+      right:0;
+      top:0;
+    }
+  
+    .navbar {
+      font-size: 1.7rem;
+      position: fixed;
+      left:0;
+      right:0;
+      top:0;
+      padding-left: 150px;
+    }
+  
+    .logo {
+      display: none;
+
+    }
+  
+    .logo-text {
+      display: none;
+    }
+  
+      .navbar a {
+      text-decoration: none;
+      color: white;
+    }
+  
+      .navbar a:hover {
+      color:var(--main-red-color);
+    }
+    
+    .header nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    } 
+  
+      .header nav li {
+      padding-right: 10px;
+    }
+    .active {
+      border-bottom: 0;
+    }
+    
   }
